@@ -148,7 +148,6 @@ wait for update
 - <https://github.com/online-judge-tools/oj>
 - <https://github.com/kurokoji/.cpp-Template>
 
-
 ## License
 
 The scripts and documentation in this project are released under the [MIT License](LICENSE)
