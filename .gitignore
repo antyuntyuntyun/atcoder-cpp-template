@@ -1,0 +1,13 @@
+# Mac
+*.DS_Store
+*info.plist
+
+# test input
+*.in
+
+# build file
+*.out   
+*.exe
+
+# src
+src/

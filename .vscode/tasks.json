@@ -1,0 +1,46 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Ubuntu(Windows wsl)C/C++: g++ build active file",
+			"type": "cppbuild",
+			"command": "/usr/bin/g++",
+			"args": [
+				"-g",
+				"${file}",
+				"-o",
+				"${fileDirname}/${fileBasenameNoExtension}.exe",
+				"-Wall",
+				"-Wextra"
+			],
+			"options": {
+				"cwd": "${workspaceFolder}"
+			},
+			"problemMatcher": [
+				"$gcc"
+			],
+			"detail": "compiler: /usr/bin/g++"
+		},
+		{
+			"label": "Mac C/C++: g++ build active file",
+			"type": "cppbuild",
+			"command": "/usr/local/bin/g++-10",
+			"args": [
+				"-g",
+				"${file}",
+				"-o",
+				"${fileDirname}/${fileBasenameNoExtension}.exe",
+				"-Wall",
+				"-Wextra"
+			],
+			"options": {
+				"cwd": "${workspaceFolder}"
+			},
+			"problemMatcher": [
+				"$gcc"
+			],
+			"detail": "compiler: /usr/local/bin/g++"
+		}
+
+	]
+}
