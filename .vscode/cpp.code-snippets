@@ -34,8 +34,10 @@
       "struct Fast {Fast() {std::cin.tie(0); ios::sync_with_stdio(false);}} fast;",
       "",
       "/* alias */",
+      "// type",
       "using ull = unsigned long long;",
       "using ll = long long;",
+      "// vector",
       "using vi = vector<int>;",
       "using vl = vector<long>;",
       "using vll = vector<long long>;",
@@ -43,7 +45,12 @@
       "using vvl = vector<vl>;",
       "using vvll = vector<vll>;",
       "using vs = vector<string>;",
+      "// pair",
       "using pii = pair<int, int>;",
+      "// unordered set",
+      "using usi = unordered_set<int>;",
+      "using usll = unordered_set<ll>;",
+      "using uss = unordered_set<string>;",
       "",
       "/* define short */",
       "#define pb push_back",
@@ -97,5 +104,5 @@
       "}"
     ],
     "description": "cpp_template"
-  },
+  }
 }
