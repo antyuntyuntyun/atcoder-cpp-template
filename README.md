@@ -7,7 +7,7 @@
 
 ## テンプレだけコピペで利用したい
 
-template.cppをコピペして利用.
+[template.cpp](template.cpp)をコピペして利用.
 
 ## 環境
 
