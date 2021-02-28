@@ -1,7 +1,7 @@
 /**
-*    author:  USERNAME
-*    created: yyyy-mm-dd hh:mm:ss
-**/
+ *    author:  USERNAME
+ *    created: yyyy-mm-dd hh:mm:ss
+ **/
 
 #include <bits/stdc++.h>
 using namespace std;
@@ -65,16 +65,15 @@ template <typename T> inline void print(const T& x) {cout << x << "\n";}
 template <typename T, typename S> inline void print(const vector<pair<T, S>>& v)
     {for (auto&& p : v) print(p);}
 // 第一引数と第二引数を比較し、第一引数(a)をより大きい/小さい値に上書き
-template <typename T> inline bool chmin(T& a, const T& b) {if (a > b) a = b; return a > b;}
-template <typename T> inline bool chmax(T& a, const T& b) {if (a < b) a = b; return a < b;}
+template <typename T> inline bool chmin(T& a, const T& b) {bool compare = a > b; if (a > b) a = b; return compare;}
+template <typename T> inline bool chmax(T& a, const T& b) {bool compare = a < b; if (a < b) a = b; return compare;}
 // gcd lcm
 // C++17からは標準実装
 // template <typename T> T gcd(T a, T b) {if (b == 0)return a; else return gcd(b, a % b);}
 // template <typename T> inline T lcm(T a, T b) {return (a * b) / gcd(a, b);}
 // clang-format on
 
-int main()
-{
+int main() {
     // code
     return 0;
 }
