@@ -74,6 +74,7 @@
       "/* func */",
       "inline int in_int() {int x; cin >> x; return x;}",
       "inline ll in_ll() {ll x; cin >> x; return x;}",
+      "inline double in_double() {{double x; cin >> x; return x;}}",
       "inline string in_str() {string x; cin >> x; return x;}",
       "// search_length: 走査するベクトル長の上限(先頭から何要素目までを検索対象とするか、1始まりで)",
       "template <typename T> inline bool vector_finder(std::vector<T> vec, T element, unsigned int search_length) {",
