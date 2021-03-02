@@ -60,7 +60,7 @@ oj login https://atcoder.jp/
 
 ### online-judge-tools
 
-[@kmyk] (https://github.com/kmyk)作成ツール.
+[@kmyk](<https://github.com/kmyk>) 作成ツール.
 ojコマンドを利用して典型作業を自動化する.
 以降ojツールと呼ぶ.
 
@@ -70,6 +70,7 @@ ojコマンドを利用して典型作業を自動化する.
 後続のシェルスクリプトはこちらをベースに処理している.
 
 ### VScode Extension
+
 推奨で出てくるものをインストールしてください.  
 (`.vscode/extensions.json`に記載しているものが、推奨として掲示されるはず)
 
