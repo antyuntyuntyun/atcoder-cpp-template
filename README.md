@@ -146,7 +146,7 @@ MacとUbuntu用のビルド設定が候補として表示されるので、適�
 
 ## Docker
 
-wait for update
+※wait for update
 
 ## 参考
 
