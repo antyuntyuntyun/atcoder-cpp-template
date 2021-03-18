@@ -17,8 +17,10 @@ using namespace std;
 struct Fast {Fast() {std::cin.tie(0); ios::sync_with_stdio(false);}} fast;
 
 /* alias */
+// type
 using ull = unsigned long long;
 using ll = long long;
+// vector
 using vi = vector<int>;
 using vl = vector<long>;
 using vll = vector<long long>;
@@ -26,7 +28,13 @@ using vvi = vector<vi>;
 using vvl = vector<vl>;
 using vvll = vector<vll>;
 using vs = vector<string>;
+using vpii = vector<pii>;
+// pair
 using pii = pair<int, int>;
+// unordered set
+using usi = unordered_set<int>;
+using usll = unordered_set<ll>;
+using uss = unordered_set<string>;
 
 /* define short */
 #define pb push_back
@@ -52,7 +60,9 @@ inline int in_int() {int x; cin >> x; return x;}
 inline ll in_ll() {ll x; cin >> x; return x;}
 inline double in_double() {{double x; cin >> x; return x;}}
 inline string in_str() {string x; cin >> x; return x;}
-// search_length: 走査するベクトル長の上限(先頭から何要素目までを検索対象とするか、1始まりで)
+inline int ctoi(char c) {return c - '0';}
+// vector_finder: (arg)elementを vectorの先頭から(arg)search_lengthまで先頭から検索し、boolを返す
+// (arg)search_length: 走査するベクトル長の上限(先頭から何要素目までを検索対象とするか、1始まりで)
 template <typename T> inline bool vector_finder(std::vector<T> vec, T element, unsigned int search_length) {
     auto itr = std::find(vec.begin(), vec.end(), element);
     size_t index = std::distance( vec.begin(), itr );
