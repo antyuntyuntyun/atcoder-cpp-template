@@ -20,17 +20,18 @@ struct Fast {Fast() {std::cin.tie(0); ios::sync_with_stdio(false);}} fast;
 // type
 using ull = unsigned long long;
 using ll = long long;
+using ld = long double;
+// pair
+using pii = pair<int, int>;
 // vector
 using vi = vector<int>;
 using vl = vector<long>;
-using vll = vector<long long>;
+using vll = vector<ll>;
 using vvi = vector<vi>;
 using vvl = vector<vl>;
 using vvll = vector<vll>;
 using vs = vector<string>;
 using vpii = vector<pii>;
-// pair
-using pii = pair<int, int>;
 // unordered set
 using usi = unordered_set<int>;
 using usll = unordered_set<ll>;
@@ -39,6 +40,7 @@ using uss = unordered_set<string>;
 /* define short */
 #define pb push_back
 #define mp make_pair
+#define um unordered_map
 #define all(obj) (obj).begin(), (obj).end()
 #define YESNO(bool) if(bool){cout<<"YES"<<endl;}else{cout<<"NO"<<endl;}
 #define yesno(bool) if(bool){cout<<"yes"<<endl;}else{cout<<"no"<<endl;}
@@ -75,6 +77,8 @@ template <typename T, typename S> inline void print(const pair<T, S>& p)
 template <typename T> inline void print(const T& x) {cout << x << "\n";}
 template <typename T, typename S> inline void print(const vector<pair<T, S>>& v)
     {for (auto&& p : v) print(p);}
+template <typename T, typename S> inline void print(const map<T, S>& m)
+    {for (auto&& p : m) print(p);}
 // 第一引数と第二引数を比較し、第一引数(a)をより大きい/小さい値に上書き
 template <typename T> inline bool chmin(T& a, const T& b) {bool compare = a > b; if (a > b) a = b; return compare;}
 template <typename T> inline bool chmax(T& a, const T& b) {bool compare = a < b; if (a < b) a = b; return compare;}
