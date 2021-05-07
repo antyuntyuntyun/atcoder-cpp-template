@@ -6,6 +6,7 @@
 			"type": "cppbuild",
 			"command": "/usr/bin/g++",
 			"args": [
+				"-std=gnu++17",
 				"-g",
 				"${file}",
 				"-o",
@@ -26,6 +27,7 @@
 			"type": "cppbuild",
 			"command": "/usr/local/bin/g++-10",
 			"args": [
+				"-std=gnu++17",
 				"-g",
 				"${file}",
 				"-o",
