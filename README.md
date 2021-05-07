@@ -92,6 +92,8 @@ VScodeでコーディングしていると, cppの保存時に自動整形が走
 
 ### ビルド確認
 
+`.vscode/tasks.json` にビルド設定を記載.
+<https://atcoder.jp/contests/language-test-202001> を参考に設定.  
 VScode上で `Ctrl + Shift + B` でビルドエラーが起きていないか確認可能.  
 MacとUbuntu用のビルド設定が候補として表示されるので、適切なものを選択してビルド実行.  
 ビルドオプションを固定させたいときは、`tasks.json`内で固定したいtasks配列要素に以下を追加.
